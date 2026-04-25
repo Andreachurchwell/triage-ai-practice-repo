@@ -13,7 +13,7 @@ For this practice version, the goal is intentionally small:
 - one GitHub Actions workflow that runs on push
 
 ## Team Three's Company
-![Team 3 photo](assets/threescompany.jpg)
+![Team 3 photo](assets/threescompany.png)
 
 - Team: Team 1
 - Practice company/project: TriageAI
