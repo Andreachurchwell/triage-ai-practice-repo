@@ -12,9 +12,9 @@ For this practice version, the goal is intentionally small:
 - one pytest file
 - one GitHub Actions workflow that runs on push
 
-## Team 3 Company
+## Team Three's Company
 
-- Team: Team 3
+- Team: Team 1
 - Practice company/project: TriageAI
 - Purpose: rehearse shared repo setup, testing, and CI before building a
   larger capstone MVP
