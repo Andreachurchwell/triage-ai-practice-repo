@@ -12,10 +12,11 @@ For this practice version, the goal is intentionally small:
 - one pytest file
 - one GitHub Actions workflow that runs on push
 
-## Team Three's Company
+## Three's Company
 ![Team 3 photo](assets/threescompany.png)
 
 - Team: Team 1
+- Team name: Three's Company
 - Practice company/project: TriageAI
 - Purpose: rehearse shared repo setup, testing, and CI before building a
   larger capstone MVP
@@ -25,6 +26,8 @@ For this practice version, the goal is intentionally small:
 ```text
 api/
   main.py
+assets/
+  threescompany.png
 tests/
   test_health.py
 .github/workflows/
