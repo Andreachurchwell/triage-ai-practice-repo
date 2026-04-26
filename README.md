@@ -1,6 +1,6 @@
 # TriageAI
 
-This is Team 3's Company practice repo for a TriageAI MVP.
+This is Team 1 / Three's Company practice repo for a TriageAI MVP.
 
 TriageAI is a small FastAPI-based practice project for learning team GitHub
 workflow, basic CI with GitHub Actions, and simple API testing.
@@ -8,12 +8,13 @@ workflow, basic CI with GitHub Actions, and simple API testing.
 For this practice version, the goal is intentionally small:
 
 - one FastAPI app
+- one simple root endpoint for team/project info
 - one health endpoint
-- one pytest file
+- a small pytest suite
 - one GitHub Actions workflow that runs on push
 
 ## Three's Company
-![Team 3 photo](assets/threescompany.png)
+![Three's Company team photo](assets/threescompany.png)
 
 - Team: Team 1
 - Team name: Three's Company
@@ -68,9 +69,12 @@ uvicorn api.main:app --reload
 uvicorn api.main:app --reload
 ```
 
-Then open `http://127.0.0.1:8000/health`
+Then open:
 
-Expected response:
+- `http://127.0.0.1:8000/` for team/project info
+- `http://127.0.0.1:8000/health` for the health check
+
+Expected health response:
 
 ```json
 {"status": "ok"}
